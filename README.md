@@ -32,7 +32,7 @@
 
 **Hubinance**, short for "Hubie Finance", is a web app where you can manage a portfolio of stocks. Leveraging IEX's API, users are able to check for an individual stock's and their portfolio's real time value. Users will also be able to buy and sell stocks and track their transaction history.
 
-Part of Harvard's CS50 module (Problem Set 9), this is my solution to the problem where I have also additionally implemented unique features using the knowledge I have acquired from the course and beyond. `helpers.py` is written wholly by the CS50 staff, as well as the initial Flask app set up in `app.py`, everything else is written and styled by me. 
+Part of Harvard's CS50 module (Problem Set 9), this is my solution to the problem where I have also additionally implemented unique features using the knowledge I have acquired from the course and beyond. `helpers.py` is written wholly by the CS50 staff, as well as the initial Flask app set up in `app.py`. Everything else is written and styled by me. 
 
 ### Built With
 
