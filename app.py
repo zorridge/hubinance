@@ -117,7 +117,8 @@ def buy():
 
     # User reached route via GET (as by clicking a link or via redirect)
     else:
-        return render_template("buy.html")
+        return redirect("/")
+        # return render_template("buy.html")
 
 
 # Transaction history
@@ -283,7 +284,8 @@ def sell():
 
     # User reached route via GET (as by clicking a link or via redirect)
     else:
+        return redirect("/")
 
         # Query for user's holdings
-        holdings = db.execute("SELECT symbol, shares FROM holdings WHERE id = ?", session["user_id"])
-        return render_template("sell.html", holdings=holdings)
+        # holdings = db.execute("SELECT symbol, shares FROM holdings WHERE id = ?", session["user_id"])
+        # return render_template("sell.html", holdings=holdings)
