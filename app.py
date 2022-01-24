@@ -1,3 +1,6 @@
+# Flask app set up courtesy of CS50 staff
+# https://cs50.harvard.edu/x/2022/psets/9/finance/
+
 import os
 
 from cs50 import SQL
@@ -40,6 +43,7 @@ def after_request(response):
     return response
 
 
+# Homepage
 @app.route("/")
 @login_required
 def index():
@@ -64,6 +68,7 @@ def index():
     return render_template("index.html", portfolio=portfolio, cash=cash, total=total)
 
 
+# Buy stock
 @app.route("/buy", methods=["GET", "POST"])
 @login_required
 def buy():
@@ -115,6 +120,7 @@ def buy():
         return render_template("buy.html")
 
 
+# Transaction history
 @app.route("/history")
 @login_required
 def history():
@@ -125,6 +131,7 @@ def history():
     return render_template("history.html", transactions=transactions)
 
 
+# Login
 @app.route("/login", methods=["GET", "POST"])
 def login():
     """Log user in"""
@@ -161,6 +168,7 @@ def login():
         return render_template("login.html")
 
 
+# Logout of web app
 @app.route("/logout")
 def logout():
     """Log user out"""
@@ -172,6 +180,7 @@ def logout():
     return redirect("/")
 
 
+# Quote price given a ticker
 @app.route("/quote", methods=["GET", "POST"])
 @login_required
 def quote():
@@ -192,6 +201,7 @@ def quote():
         return render_template("quote.html")
 
 
+# Register new account
 @app.route("/register", methods=["GET", "POST"])
 def register():
     """Register user"""
@@ -225,6 +235,7 @@ def register():
         return render_template("register.html")
 
 
+# Sell stock
 @app.route("/sell", methods=["GET", "POST"])
 @login_required
 def sell():
