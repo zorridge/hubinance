@@ -1,3 +1,5 @@
+# Hubie Finance
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -26,11 +28,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![homepage](/demo/homepage.png)
 
-**Hubinance**, short for "Hubie Finance", is a web app where you can manage a portfolio of stocks. Leveraging IEX's API, the user is able to check for stocks' real time values and their own portfolio's value. The user will also be able to buy and sell stocks and track their transaction history.
+**Hubinance**, short for "Hubie Finance", is a web app where you can manage a portfolio of stocks. Leveraging IEX's API, users are able to check for an individual stock's and their portfolio's real time values. Users will also be able to buy and sell stocks and track their transaction history.
 
-Part of Harvard's CS50 (Problem Set 9), this is my own unique solution to the problem where I have implemented additional unique features using the knowledge I have acquired from the course and beyond. `helpers.py` is written by the CS50 staff, as well as the initial Flask app set up in `app.py`, everything else is written and styled by me. 
+Part of Harvard's CS50 module (Problem Set 9), this is my solution to the problem where I have also additionally implemented unique features using the knowledge I have acquired from the course and beyond. `helpers.py` is written wholly by the CS50 staff, as well as the initial Flask app set up in `app.py`, everything else is written and styled by me. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -86,8 +88,28 @@ Ensure that the latest version of Python 3 is installed (written in Python 3.10.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+* Registering/logging-in via the landing page *(user data is managed by a SQLite database and the password is hashed using the `werkzeug.security.generate_password_hash()` function)*
 
-Todo
+![register](/demo/register.png)
+
+* Arriving at the homepage *(initial cash balance will always default to $10,000 for new users)*
+
+![new user homepage](/demo/homepageEmpty.png)
+
+* Obtaining a price quote for a ticker
+
+![quote](/demo/quote.png)
+
+* Placing a market order for the quoted ticker
+
+![quoted](/demo/quoted.png)
+
+* Viewing transaction history
+
+![history](/demo/history.png)
+
+### Live Demo
+Coming soon...
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -98,6 +120,7 @@ Todo
 
 - [x] Implement responsive design for desktop
 - [ ] Implement responsive design for mobile
+- [ ] Film live demo of web app
 - [ ] Add "Quote" function to Dashboard
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -108,6 +131,6 @@ Todo
 ## Acknowledgments
 
 * [CS50](https://cs50.harvard.edu/x/2022/psets/9/finance/)
-* [README Template](https://github.com/othneildrew/Best-README-Template)
+* [README.md Template](https://github.com/othneildrew/Best-README-Template)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
