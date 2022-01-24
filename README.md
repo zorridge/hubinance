@@ -34,9 +34,6 @@
 
 Part of Harvard's CS50 module (Problem Set 9), this is my solution to the problem where I have also additionally implemented unique features using the knowledge I have acquired from the course and beyond. `helpers.py` is written wholly by the CS50 staff, as well as the initial Flask app set up in `app.py`, everything else is written and styled by me. 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
 ### Built With
 
 * [Python 3](https://www.python.org/)
