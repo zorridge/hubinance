@@ -1,0 +1,48 @@
+nav .navbar-brand
+{
+    font-size: xx-large;
+    font-family: 'Bebas Neue', cursive;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 5, 15);
+    background-position: 0px -10vh;
+    background-repeat: no-repeat;
+    background-image: radial-gradient(50% 50% at 50% 50%, rgba(19, 80, 255, 0.15) 0%, rgba(0, 5, 15, 0) 100%);
+}
+
+/* nav {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 5, 15);
+} */
+
+h1 {
+    font-weight: 700;
+}
+
+section {
+    background: rgb(18, 20, 26);
+    border-radius: 25px;
+}
+
+input {
+    background: rgb(18, 20, 26);
+}
+
+#buy {
+    border-right: 1px solid white;
+}
+
+@media (max-width: 768px) {
+    #buy {
+        border-right: none;
+        border-bottom: 1px solid white;
+    }
+}
