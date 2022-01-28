@@ -18,6 +18,9 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+    <ul>
+        <li><a href="#live-demo">Live Demo</a></li>
+      </ul>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -106,7 +109,8 @@ Ensure that the latest version of Python 3 is installed (written in Python 3.10.
 ![history](/demo/history.png)
 
 ### Live Demo
-Coming soon...
+
+https://user-images.githubusercontent.com/86993236/151592003-8ae86b59-b4f8-4d17-bdb3-74d74c3b1be1.mp4
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
