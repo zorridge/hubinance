@@ -10,6 +10,7 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
+    <li><a href="#video-demo">Video Demo</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
@@ -18,9 +19,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <ul>
-        <li><a href="#live-demo">Live Demo</a></li>
-      </ul>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -37,11 +35,30 @@
 
 Part of Harvard's CS50 module (Problem Set 9), this is my solution to the problem set where I have also additionally implemented unique features using the knowledge I have acquired from the course and beyond. `helpers.py` is written wholly by the CS50 staff, as well as the initial Flask app set up in `app.py`. Everything else is written and designed by me. 
 
+View source code [here](/app.py).
+
 ### Built With
 
-* [Python 3](https://www.python.org/)
+* [Python](https://www.python.org/)
 * [Flask](https://flask.palletsprojects.com/en/2.0.x/)
 * [Bootstrap 5](https://getbootstrap.com)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- VIDEO DEMO -->
+## Video Demo
+Timestamps:
+* 00:03 - Registering new user and logging in (includes error handling for existing username)
+* 00:36 - Changing initial cash balance from back-end database
+* 00:52 - Buying stocks from Dashboard
+* 01:00 - Selling holdings from Dashboard
+* 01:13 - Viewing transaction history
+* 01:19 - Obtaining price quote for ticker and buying quoted ticker
+* 01:52 - Error handling for buying invalid ticker
+* 02:02 - Error handling for selling quantity > available holdings
+
+https://user-images.githubusercontent.com/86993236/151592003-8ae86b59-b4f8-4d17-bdb3-74d74c3b1be1.mp4
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -108,10 +125,6 @@ Ensure that the latest version of Python 3 is installed (written in Python 3.10.
 
 ![history](/demo/history.png)
 
-### Live Demo
-
-https://user-images.githubusercontent.com/86993236/151592003-8ae86b59-b4f8-4d17-bdb3-74d74c3b1be1.mp4
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -121,7 +134,7 @@ https://user-images.githubusercontent.com/86993236/151592003-8ae86b59-b4f8-4d17-
 
 - [x] Implement responsive design for desktop
 - [ ] Implement responsive design for mobile
-- [ ] Film live demo of web app
+- [x] Film live demo of web app
 - [ ] Add "Quote" function to Dashboard
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -132,6 +145,6 @@ https://user-images.githubusercontent.com/86993236/151592003-8ae86b59-b4f8-4d17-
 ## Acknowledgments
 
 * [CS50](https://cs50.harvard.edu/x/2022/psets/9/finance/)
-* [README.md Template](https://github.com/othneildrew/Best-README-Template)
+* [IEX](https://iexcloud.io/cloud-login#/register/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
