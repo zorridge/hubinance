@@ -49,8 +49,8 @@ View source code [here](/app.py).
 <!-- VIDEO DEMO -->
 ## Video Demo
 Timestamps:
-* 00:03 - Registering new user and logging in (includes error handling for existing username)
-* 00:36 - Changing initial cash balance from back-end database
+* 00:03 - Registering new user and logging in
+* 00:36 - Changing cash balance manually via back-end database *(customizability for initial cash balance not available)*
 * 00:52 - Buying stocks from Dashboard
 * 01:00 - Selling holdings from Dashboard
 * 01:13 - Viewing transaction history
