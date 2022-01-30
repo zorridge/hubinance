@@ -50,7 +50,7 @@ View source code [here](/app.py).
 ## Video Demo
 Timestamps:
 * 00:03 - Registering new user and logging in
-* 00:36 - Changing cash balance manually via back-end database *(customizability for initial cash balance not available)*
+* 00:36 - Changing cash balance via back-end *(customizability for initial cash balance not available)*
 * 00:52 - Buying stocks from Dashboard
 * 01:00 - Selling holdings from Dashboard
 * 01:13 - Viewing transaction history
