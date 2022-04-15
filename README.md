@@ -19,7 +19,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -32,8 +31,6 @@
 ![homepage](/demo/homepage.png)
 
 **Hubinance**, short for "Hubie Finance", is a stock-trading web app with portfolio management functionality. Leveraging IEX's API, users are able to check the real time value of their portfolio and obtain price quotes for individual stocks. Users will also be able to buy and sell stocks via market order and track their transaction history.
-
-Part of Harvard's CS50 module (Problem Set 9), this is my solution to the problem set where I have also additionally implemented unique features using the knowledge I have acquired from the course and beyond. `helpers.py` is written wholly by the CS50 staff, as well as the initial Flask app set up in `app.py`. Everything else is written and designed by me. 
 
 View source code [here](/app.py).
 
@@ -124,18 +121,6 @@ Ensure that the latest version of Python 3 is installed (written in Python 3.10.
 * Viewing the transaction history
 
 ![history](/demo/history.png)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Implement responsive design for desktop
-- [ ] Implement responsive design for mobile
-- [x] Film live demo of web app
-- [ ] Add "Quote" function to Dashboard
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
